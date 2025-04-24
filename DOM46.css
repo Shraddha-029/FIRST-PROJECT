@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+height: 100%;
+width: 100%;
+
+}
+.card{
+    width: 250px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+   overflow: hidden;
+    margin:20px;
+    font-family: sans-serif;
+    position: relative;
+     display: inline-block;
+     vertical-align: top;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+border: 2px solid black;
+}
+.badge1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans';
+    font-size: small;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    font-weight: bold;
+    background-color: rgb(135, 224, 240);
+    transform: translate(32%);
+    margin-bottom: 5px;
+    margin-top: 3px;
+    
+}
+button{
+    height: 33px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: red;
+    color: azure;
+    font-family: Cambria;
+    margin-top: 7px;
+}
+
+h2{
+    font-size:20px;
+    
+}
